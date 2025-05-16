@@ -132,7 +132,7 @@
 			TEST: 8
 		};
 
-		var opmodes = 14;
+		var opmodes = 6;
 		function openPrez(url, mode) {
 			var fullUrl = '' + url;
 			try {
@@ -167,6 +167,28 @@
 <body>
 	<div class="ap-mode-buttons-container">
 		<div class="ap-mode-buttons">
+			<button id="ap-mode-demo" class="ap-mode-button" onclick="openPrez('demo.html')">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+					<style type="text/css">
+						.st0{fill:#FFFFFF;}
+						.st1{fill:#29ABE2;}
+					</style>
+					<path class="st0" d="M40,50H10C4.48,50,0,45.52,0,40l0-30C0,4.48,4.48,0,10,0l30,0c5.52,0,10,4.48,10,10v30C50,45.52,45.52,50,40,50z"/>
+					<rect x="8" y="8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 50 3.552714e-15)" class="st1" width="34" height="34"/>
+					<rect x="14" y="9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 50 3.552714e-15)" class="st0" width="22" height="32"/>
+					<rect x="35" y="9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 48 -26)" class="st0" width="4" height="4"/>
+					<rect x="35" y="37" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 76 2)" class="st0" width="4" height="4"/>
+					<rect x="27" y="9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 40 -18)" class="st0" width="4" height="4"/>
+					<rect x="27" y="37" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 68 10)" class="st0" width="4" height="4"/>
+					<rect x="19" y="9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 32 -10)" class="st0" width="4" height="4"/>
+					<rect x="19" y="37" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 60 18)" class="st0" width="4" height="4"/>
+					<rect x="11" y="9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24 -2)" class="st0" width="4" height="4"/>
+					<rect x="11" y="37" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 52 26)" class="st0" width="4" height="4"/>
+					<polygon class="st1" points="22,21 29,25 22,29 "/>
+				</svg>
+
+				<span id="ap-label-mode-demo">Demonstration</span>
+			</button>
 			<button id="ap-mode-tutorial" class="ap-mode-button" onclick="openPrez('tutorial.html')">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 				<style type="text/css">
@@ -194,6 +216,20 @@
 				</svg>
 
 				<span id="ap-label-mode-practice">Practice</span>
+			</button>
+			<button id="ap-mode-test" class="ap-mode-button" onclick="openPrez('test.html')">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+					<style type="text/css">
+						.st0{fill:#FFFFFF;}
+						.st1{fill:#29ABE2;}
+					</style>
+					<path class="st0" d="M40,50H10C4.48,50,0,45.52,0,40l0-30C0,4.48,4.48,0,10,0l30,0c5.52,0,10,4.48,10,10v30C50,45.52,45.52,50,40,50z"/>
+					<path class="st1" d="M10,26L10,26c0-6.63,5.37-12,12-12h0c6.63,0,12,5.37,12,12v0c0,6.63-5.37,12-12,12h0C15.37,38,10,32.63,10,26z"/>
+					<path class="st1" d="M41.71,13.71l-1.41-1.41l-7.83,7.83c0.35,0.62,0.64,1.27,0.87,1.95L41.71,13.71z"/>
+					<path class="st0" d="M17.71,21.29l-1.41,1.41l8.21,8.21l8.83-8.83c-0.24-0.68-0.53-1.34-0.87-1.95l-7.96,7.96L17.71,21.29z"/>
+				</svg>
+
+				<span id="ap-label-mode-test">Test</span>
 			</button>
 		</div>
 	</div>
